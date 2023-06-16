@@ -15,3 +15,4 @@ def set_discount_in_quotation(self , method):
 			row.discount_percentage = 0
 			row.discount_amount = 0	
 	AccountsController.calculate_taxes_and_totals(self)
+	AccountsController.set_missing_item_details(self)
