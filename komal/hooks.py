@@ -130,7 +130,12 @@ app_license = "MIT"
 #		"komal.tasks.monthly"
 #	],
 # }
-
+doc_events = {
+	"Quotation": {
+		"validate":"komal.api.set_discount_in_quotation"
+	},
+    
+}
 # Testing
 # -------
 
