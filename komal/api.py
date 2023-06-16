@@ -3,6 +3,7 @@ import frappe
 from erpnext.controllers.accounts_controller import AccountsController
 
 def set_discount_in_quotation(self , method):
+	pass
 	if frappe.session.user == "Administrator":
 		frappe.msgprint("KOMAL")
 	if self.discount:
